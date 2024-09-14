@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
 }
 .head1{
     display:flex;
@@ -55,6 +56,7 @@
     position: relative;
     color: white;
  }
+
  .midImgText{
     margin-left: 135px;
     padding-top: 40px;
@@ -129,6 +131,7 @@ overflow: hidden;
 background-size: cover;
 margin-right: 15px;
 margin-top: 15px;
+margin-right: 123px;
 border-radius: 8px;
 }
  .bgimg1Contantent{
@@ -165,16 +168,72 @@ border-radius: 8px;
  }
  .bgimg4{
    background-image: url("assets/740930.webp");
-   width: 550px;
-   height: 250px;
+   margin-right: 19px;
+   width: 540px;
+   height: 270px;
+   border-radius: 8px;
+   cursor: pointer;
  }
  .bgimg5{
  background-image: url("assets/844103.webp");
- width: 550px;
- height: 250px;
+ width: 530px;
+ height: 270px;
+ border-radius: 8px;
  }
  .Trondheim{
    margin-top: 23px;
    margin-left: 135px;
    display: flex;
+   cursor: pointer;
  }
+
+ .bgimg4  h3{
+   padding: 12px;
+   font-size: 25px;
+   color: rgb(88, 39, 76);
+ }
+.bgimg4 {
+   display: flex;
+}
+.bgimg4 img{
+ margin-top: 20px;
+}
+.bgimg4 h3:hover{
+   color:rgba(20, 44, 180, 0.938);
+}
+.bgimg6{   
+background-image: url("assets/879406.webp");
+width: 350px;
+height: 240px;
+margin-right: 19px;
+border-radius: 8px;
+}
+.bgimg7{   
+background-image: url("assets/693535.webp");
+width: 350px;
+height: 240px;
+margin-right: 19px;
+border-radius: 8px;
+}
+.bgimg8{   
+background-image: url("assets/65633294.webp");
+width: 350px;
+height: 240px;
+border-radius: 8px;
+}
+.footerMain{
+   display: flex;
+   justify-content: space-around;
+   margin: 45px;
+   margin-bottom: 12px;
+   
+}
+ul li a{
+   text-decoration: none;
+   color: black
+}
+ .footer1 ul li a:hover{
+   color:darkviolet;
+   font-size: 19px;
+   text-decoration: underline;
+}
